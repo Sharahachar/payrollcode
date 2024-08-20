@@ -1,0 +1,107 @@
+.unique-interview-container {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(7, 10, 92);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.938);
+    overflow-y: auto;
+    max-height: 75vh;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.unique-show {
+    text-align: center;
+    margin-left: 0%;
+}
+
+.unique-interview-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.unique-interview-item {
+    width: 90%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 4%;
+}
+
+.unique-interview-item h3 {
+    color: black;
+    margin-top: 0;
+}
+
+.unique-interview-item label {
+    color: black;
+    display: block;
+    margin: 5px 0;
+}
+
+.unique-interview-item input {
+    color: black;
+    padding: 5px;
+    margin-left: 60%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.unique-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.unique-button-group .unique-edit-btn {
+    width: 40%;
+}
+
+.unique-button-group .unique-send-email-btn {
+    width: 40%;
+}
+
+.unique-button-group button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.unique-button-group button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.unique-button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 30%;
+    margin-left: 25%;
+}
+
+.unique-back-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.unique-back-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.unique-save-btn {
+    width: 10%;
+    margin-left: 55%;
+}
